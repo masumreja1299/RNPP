@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#first{
+
+}
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+          box-sizing:border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 70PX 0;
+
+}
+.small{
+     margin: 50px;
+}
+.logo{
+    float: left;
+    width: 30%;
+}
+.menu{
+     margin-top: 50px;
+     float: right;
+     width: 70%;
+}
+.menu ul{
+
+}
+.menu ul li{
+     list-style: none;
+     float: left;
+     padding-left: 10px;
+}
+.menu ul li a{
+     font-size: 20px;
+     padding: 10px 15px;
+     text-decoration: none;
+     color: red;
+     background: yellow;
+} 
+.menu ul li a: hover{
+    color: white;
+    background: red;
+}
+
+#second-section{
+    background: url(img/cover.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+.content{
+    text-align: center;
+    padding: 100px 0;
+
+}
+.content h2{
+    font-size: 60px;
+}
+#third-section{
+    padding-bottom: 50px;
+}
+.section-top{
+    padding: 40 0;
+    text-align: center;
+}
+.section-top h2 {
+    font-size: 40px;
+    color: purple;
+} 
+.section-top p {
+    font-size: 20px;
+    color: black;
+}
+
+}
+
+
+#contact-us{
+    padding: 100px;
+}
+.contact-top{
+    color: blue;
+    text-align: center;
+}
+.contact-top h2{
+    text-transform: uppercase;
+    font-size: 36px; 
+    margin-bottom: 10px;
+}
+.contact-top p{}
+.contact-single{    
+    width: 33.3333%;
+    float:left;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: blue;
+}
+.contact-single i{
+   font-size: 40px; 
+   margin-bottom: 20px;
+}
+.contact-single h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.contact-single h3{
+    font-size: 20px;
+}
+.contact-single:hover{
+    color: blue;
+}
+.contact-form{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+}
+.contact-form input{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.message{
+    width: 50%;
+    float: right;
+}
+.message textarea{
+    width: 100%;
+}
+.message input:hover{
+    background: royalblue;
+    color:silver;
+}
+
+#social-icon{
+    background-color: blueviolet;
+    padding: 20px 0;
+}
+.social-icons i{
+    color: blue;
+    font-size: 30px;
+}
